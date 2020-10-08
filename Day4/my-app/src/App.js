@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="circular-image-avatar" alt="logo" width="200" height="250"/>
+        <img src={logo} className="circular-image-avatar" alt="logo" width="200" height="250" />
         <p>
           My name is Sasuke Uchiha
         </p>
@@ -20,7 +20,22 @@ function App() {
         >
           Have a glimpse of me...
         </a>
+
+
       </header>
+      
+      
+        <div
+          class="border">
+        </div>
+
+        <div
+          class="border" >
+        </div>
+
+        <div
+          class="border">
+        </div>
     </div>
   );
 }
