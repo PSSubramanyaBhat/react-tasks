@@ -16,7 +16,16 @@
 }
 .border {
   height: 100px;
-  width: 6%;
+  width: 10%;
+  margin-top: -180px;
+  border: 2px solid blue;
+  display:inline-block;
+  vertical-align:top;
+  align-self: center;
+}
+.nestedborder {
+  height: 80px;
+  width: 8%;
   margin-top: -180px;
   border: 2px solid blue;
   display:inline-block;

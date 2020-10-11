@@ -23,19 +23,24 @@ function App() {
 
 
       </header>
-      
-      
-        <div
-          class="border">
-        </div>
 
-        <div
-          class="border" >
-        </div>
 
-        <div
-          class="border">
-        </div>
+      <div
+        class="border">
+      </div>
+
+      <div
+        class="border" >
+      </div>
+
+      <div
+        class="border">
+      </div>
+
+      <div
+        class="border">
+      </div>
+
     </div>
   );
 }
