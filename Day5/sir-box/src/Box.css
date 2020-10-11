@@ -24,7 +24,17 @@
     height: 80px;
     margin: 18%;
 }
-
+.DashedBox {
+    /* border-style: dashed; */
+    border: dashed 2px orange;
+    margin: 30px;
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    display: inline-block;
+    top: 50%;
+    left: 70%;
+}
 .Box--rounded {
     border-radius: 50%;
 }

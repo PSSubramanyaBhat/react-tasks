@@ -34,6 +34,10 @@ function App() {
                     </Box>
                 </div>
             </Box>
+
+            <Box className="DashedBox" style={{ color: 'blue' }}>
+                
+            </Box>
         </div>
     );
 }
