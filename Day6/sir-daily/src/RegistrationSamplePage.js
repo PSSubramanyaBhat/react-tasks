@@ -35,19 +35,19 @@ const RegistrationSamplePage = () => {
             <form>
                 <input placeholder="Username" size="40" type="text" id="uname" name="uname"
                     // defaultValue={username}
-                    onChange={(event) => {
-                        setUsername(event.target.value);
-                    }}
+                    // onChange={(event) => {
+                    //     setUsername(event.target.value);
+                    // }}
                 >
 
                 </input>
             </form>
 
             <form>
-                <input placeholder="Password" size="40" type="password" id="uname" name="uname"
-                    onChange={(event) => {
-                        setPassword(event.target.value);
-                    }}
+                <input placeholder="Password" size="40" type="password" id="pword" name="pword"
+                    // onChange={(event) => {
+                    //     setPassword(event.target.value);
+                    // }}
                 >
 
                 </input>
@@ -55,11 +55,14 @@ const RegistrationSamplePage = () => {
 
             <button
                 onClick={(event) => {
-                    alert(
-                        'Registered Successfully     (save info ? )\n' +
-                        'Username: ' + `${username}` + '\n' +
-                        'Password: ' + `${password}` + '\n'
-                    )
+                    // alert(
+                    //     'Registered Successfully     (save info ? )\n' +
+                    //     'Username: ' + `${username}` + '\n' +
+                    //     'Password: ' + `${password}` + '\n'
+                    // )
+                    
+                    setUsername(document.getElementById("uname").value);
+                    setPassword(document.getElementById("pword").value);
                 }}
             >
                 <p>Sign-in</p>

@@ -2,11 +2,16 @@ import './Counter.css';
 
 import React, { useState } from 'react';
 
+import PropTypes from 'prop-types';
+
 const Counter = ({ counterBase, upperLimit, lowerLimit }) => {
+    // const Counter = () => {
+
 
     let [count, setCount] = useState(0);
     let [multiplier, setMultiplier] = useState(Number(counterBase));
-
+    // let [multiplier, setMultiplier] = useState(Number(Counter.PropTypes.counterBase));
+// 
     return (
         <div className="Counter">
             <button
@@ -54,6 +59,12 @@ const Counter = ({ counterBase, upperLimit, lowerLimit }) => {
         </div>
     );
 };
+
+// Counter.propTypes = {
+//     counterBaseProp:PropTypes.counterBase,
+//     lowerLimitProp: PropTypes.lowerLimit,
+//     upperLimitProp: PropTypes.upperLimit,
+// }
 
 /*instead of writing like this and then using reactDOM.render()...   
 we export it to different module and then use this class/vinding there*/

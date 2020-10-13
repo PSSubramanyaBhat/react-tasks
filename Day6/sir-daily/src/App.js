@@ -9,7 +9,7 @@ function App() {
     return (
         // <div className="App">
         //     {/* <Counter /> */}
-        //     <Counter upperLimit = {10} lowerLimit = {0} counterBase = {2}/>
+        //     <Counter upperLimit = {20} lowerLimit = {0} counterBase = {5}/>
         // </div>
 
         <div className="App">
